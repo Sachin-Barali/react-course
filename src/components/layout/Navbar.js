@@ -7,18 +7,18 @@ const Navbar = () => {
         <>
             <div className="row pt-1 bg-dark">
                 <div className="col-md-3">
-                    <Link className="navbar-brand" to="#">Navbar</Link>
+                    <Link className="navbar-brand" to="/">Navbar</Link>
                 </div>
                 <div className="col-md-6">
                 <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit">Search</button>
+                            <button className="btn btn-outline-warning" type="submit">Search</button>
                         </form>
                 </div>
-                <div className="col-md-3">
-                    <Link to="#"><i class="bi bi-box-arrow-in-right"></i></Link>
-                    <Link to="#"><i class="bi bi-person-plus-fill"></i></Link>
-                    <Link to="#"><i class="bi bi-box-arrow-in-right"></i></Link>
+                <div className="col-md-3 d-flex justify-content-evenly custom-icon">
+                    <Link to="./signin"><i class="bi bi-box-arrow-in-right text-white"></i></Link>
+                    <Link to="./signup"><i class="bi bi-person-plus-fill text-white"></i></Link>
+                    <Link to="#"><i class="bi bi-box-arrow-in-right text-white"></i></Link>
                 </div>
             </div>
 
@@ -35,6 +35,15 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Link</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#">Services</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="#">Contact us</Link>
                             </li>
                         </ul>
                        

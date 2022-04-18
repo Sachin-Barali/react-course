@@ -3,3 +3,13 @@
     box-sizing: border-box;
     
 }
+.custom-icon{
+    font-size:30px;
+    color:white !important;
+
+}
+.navbar-brand{
+    font-size:30px;
+    color: white;
+    font-weight:bold !important;
+}

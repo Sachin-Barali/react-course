@@ -1,4 +1,5 @@
 import React from 'react'
+import './carousel.css'
 
 const Carousel = () => {
   return (
@@ -11,21 +12,21 @@ const Carousel = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src="https://cdn.mos.cms.futurecdn.net/q3NVYX9QB7AUY3WE483VoY-1200-80.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src="https://nagmani.com.np/pub/media/mageplaza/blog/post/b/e/best-laptops-for-students-in-nepal.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src="https://globallinknepal.com/wp-content/uploads/2020/05/Macbook-Air-13-2020-price-in-nepal.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
