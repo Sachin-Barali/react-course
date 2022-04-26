@@ -16,9 +16,9 @@ const Navbar = () => {
                         </form>
                 </div>
                 <div className="col-md-3 d-flex justify-content-evenly custom-icon">
-                    <Link to="./signin"><i class="bi bi-box-arrow-in-right text-white"></i></Link>
-                    <Link to="./signup"><i class="bi bi-person-plus-fill text-white"></i></Link>
-                    <Link to="#"><i class="bi bi-box-arrow-in-right text-white"></i></Link>
+                    <Link to="/signin"><i class="bi bi-box-arrow-in-right text-white"></i></Link>
+                    <Link to="/signup"><i class="bi bi-person-plus-fill text-white"></i></Link>
+                    <Link to="/cart"><i class="bi bi-cart-check text-white"></i></Link>
                 </div>
             </div>
 
@@ -34,13 +34,16 @@ const Navbar = () => {
                                 <Link className="nav-link active" aria-current="page" to="#">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Link</Link>
+                                <Link className="nav-link" to="/product">Products</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Services</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Blogs">Blogs</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="#">Contact us</Link>
